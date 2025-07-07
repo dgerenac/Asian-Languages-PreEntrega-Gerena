@@ -1,0 +1,187 @@
+
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #e8ffe99c; 
+    color: #333; /*text color*/
+    line-height: 1.6; /*Line spacing*/
+}
+
+/*Main header*/
+header {
+    background-color: #151B54; 
+    color: white; 
+    padding: 1rem 20px; 
+    text-align: left; 
+}
+
+header h1 {
+    margin: 0; 
+    font-size: 2.5rem; 
+}
+
+
+.hanzi, .hangul {
+    font-size: 1.2em; 
+    text-align: left
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-top: -30px; 
+}
+
+nav ul li {
+    display: inline-block; 
+    margin-left: 15px; 
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+nav ul li a:hover {
+    color: #FFFF33; /*hover color*/
+}
+
+
+main {
+    padding: 20px; 
+    max-width: 1450px; 
+    margin: 20px auto; 
+    background-color: rgb(255, 255, 255); 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgb(138, 156, 255); 
+}
+
+section {
+    margin-bottom: 30px; 
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ffffff; 
+}
+
+section:last-child {
+    border-bottom: none; 
+}
+
+h2, h3 {
+    color: #2980b9; 
+    text-align: left; 
+    margin-bottom: 15px;
+}
+
+
+.explanation-text {
+    font-size: 1.1rem;
+    color: #555;
+    text-align: justify; 
+    margin-top: 20px;
+}
+
+
+ol, ul {
+    list-style-position: inside; 
+    padding-left: 20px; 
+    margin-bottom: 20px;
+}
+
+ol li {
+    font-weight: bold; 
+    margin-bottom: 8px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+
+a {
+    color: #2980b9; 
+    text-decoration: underline; 
+}
+
+a:hover {
+    color: #e74c3c; /*hover color for links*/
+}
+
+
+img {
+    max-width: 100%; /* Images will not exceed the width of their container */
+    height: auto; /* Maintains image aspect ratio */
+    display: block; /* To center the image if needed */
+    margin: 15px auto; /* Centers image with top/bottom margin */
+    border-radius: 4px; /* Slightly rounded corners */
+}
+.footer-social-icon {
+    width: 30px; /* O el tamaño que desees */
+    height: auto; /* Para mantener la proporción */
+    margin: 5px 10px; /* Margen para separarlos si pones varios */
+    display: inline-block; /* Para que estén uno al lado del otro si pones varios */
+}
+
+footer {
+    background-color: #151B54; 
+    color: white; 
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 30px; 
+    font-size: 0.9rem;
+    clear: both; 
+}
+
+.footer-icon {
+    font-size: 1.5rem; /*Larger size for the icon*/
+    margin-top: 5px;
+}
+
+
+.videoph, .chart-placeholder {
+    background-color: #dddddd; /* Light gray for placeholders */
+    border: 1px dashed #e7f9ff; /* Dashed border */
+    padding: 20px;
+    text-align: center;
+    color: #666;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Estilos para la sección Tian Zi Ge */
+.tian-zi-ge-section {
+    text-align: center; /* Centra los contenedores de las casillas */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Contenedor de cada casilla individual Tian Zi Ge */
+.tian-zi-ge-container {
+    display: inline-block; /* Permite que las casillas se pongan una al lado de la otra */
+    width: 100px; /* Ancho total de cada casilla (ajusta si es necesario) */
+    height: 100px; /* Alto total de cada casilla (ajusta si es necesario) */
+    margin: 5px; /* Espacio entre cada casilla */
+    vertical-align: top; /* Alinea las casillas por arriba si están en diferentes líneas */
+    box-sizing: border-box; /* Asegura que padding y border se incluyan en el width/height */
+}
+
+/* La tabla dentro de cada contenedor de casilla */
+.tian-zi-ge-container table {
+    width: 100%; /* La tabla ocupa todo el ancho del contenedor */
+    height: 100%; /* La tabla ocupa todo el alto del contenedor */
+    border-collapse: collapse; /* IMPORTANTE: Fusiona los bordes de las celdas */
+    border: 3.5px solid #333; /* <-- BORDE EXTERIOR MÁS OSCURO */
+    box-sizing: border-box; /* Asegura que padding y border se incluyan en el width/height */
+}
+
+/* Las celdas individuales dentro de la tabla */
+.tian-zi-ge-container td {
+    width: 50%; /* Cada celda ocupa el 50% del ancho de la tabla */
+    height: 50%; /* Cada celda ocupa el 50% del alto de la tabla */
+    border: 1px solid #ccc; /* <-- BORDES INTERIORES MÁS CLAROS */
+    box-sizing: border-box; /* Asegura que padding y border se incluyan en el width/height */
+}
